@@ -4,12 +4,6 @@ Updates should follow the [Keep a CHANGELOG](https://keepachangelog.com/) princi
 
 ## [Unreleased][unreleased]
 
-## [1.5.1] - 2020-06-27
-
-### Fixed
-
- - Fixed UTF-8 encoding not being checked in the `UrlEncoder` utility (#509) or the `Cursor`
-
 ## [1.5.0] - 2020-06-21
 
 ### Added
@@ -347,8 +341,7 @@ No changes were made since 1.0.0-rc1.
    - Removed `DelimiterStack::iterateByCharacters()` (use the new `processDelimiters()` method instead)
    - Removed the protected `DelimiterStack::findMatchingOpener()` method
 
-[unreleased]: https://github.com/thephpleague/commonmark/compare/1.5.1...1.5
-[1.5.1]: https://github.com/thephpleague/commonmark/compare/1.5.0...1.5.1
+[unreleased]: https://github.com/thephpleague/commonmark/compare/1.5.0...HEAD
 [1.5.0]: https://github.com/thephpleague/commonmark/compare/1.4.3...1.5.0
 [1.4.3]: https://github.com/thephpleague/commonmark/compare/1.4.2...1.4.3
 [1.4.2]: https://github.com/thephpleague/commonmark/compare/1.4.1...1.4.2
